@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1578917207 source:e:\mycppspace\chapter1demo\test.cpp
+
+1578918400 source:e:\mycppspace\chapter1demo\main.cpp
+	<iostream>
+
