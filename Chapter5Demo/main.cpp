@@ -7,7 +7,28 @@ int main()
 {
 
 
-
+    /*
+    //请用循环打印1997年7月的日历，1997年7月1日周二，香港回归举国同庆
+    //1.定义变量
+    int day = 31;
+    int dayOfWeek = 2;  //7月1日周二
+    cout << "\t一\t二\t三\t四\t五\t六\t七" << endl;
+    //打印\t  周几-1个
+    for(int i = 0;i < dayOfWeek - 1; i++){
+        cout << '\t';
+    }
+    //打印日子
+    for(intt i = 1; i <= day; i++){
+        cout << i;
+        //到底是\n还是\t，需要根据i的值来判断
+        if((i + dayOfWeek -1) % 7 == 0){
+            cout << '\n';
+        }else{
+            cout << '\t';
+        }
+    }
+    cout << endl;
+    /*
     int n=0;
     while(n++<=2);
     cout << n;
